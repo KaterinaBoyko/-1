@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Считывание данных
+
+data = pd.read_csv('/mnt/data/kc_house_data.csv')
+
+# Вывод первых 5 строк
+
+print(data.head())
+
+# Описание признаков и их содержание
+
+print(data.info())
+
+print(data.describe())
+
